@@ -1,11 +1,10 @@
+import React from "react";
 import Game from "./components/Game";
 
-function App() {
+export default function App() {
   return (
     <div>
-      <Game></Game>
+      <Game/>
     </div>
   );
 }
-
-export default App;
